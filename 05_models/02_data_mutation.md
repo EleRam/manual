@@ -81,7 +81,7 @@ pairs representing the scope of the records or documents to be deleted.
 $success = Posts::remove();
 
 // Delete drafted posts only.
-Posts::remove(['is_draft => true]);
+Posts::remove(['is_draft' => true]);
 ```
 
 <div class="note note-caution">
